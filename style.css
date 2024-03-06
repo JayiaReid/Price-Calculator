@@ -1,0 +1,42 @@
+body{
+    margin: 2%;
+    border: 5px dashed white;
+    /*background-image: linear-gradient(blue, lightblue);*/
+    background-color: rgb(0, 166, 255);
+    padding: 1.5em;
+    background: cover;
+    max-height: 100vh;
+}
+
+h1{
+    font-weight: bold;
+    text-shadow: 2px 2px 10px black;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+}
+
+label{
+    color: white;
+    font-size: 1.2em;
+}
+
+input{
+    background-color: blue;
+    color: white;
+    padding: 0.5em;
+    width: 50%;
+}
+#button{
+    width: 10%;
+    transition: 1s;
+}
+#button:hover{
+    background-color: white;
+    color: blue;
+}
+hr{
+    color: blue;
+}
+
+
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order Form</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Price Calculator:</h1>
+    <form>
+        <label>Last Name</label><br>
+        <input type="text" id="lastName" required><br><br>
+
+        <label>First Name</label><br>
+        <input type="text" id="firstName" required><br><br>
+
+        <label>Phone Number</label><br>
+        <input type="text" id="phoneNumber" required><br><br>
+
+        <label>Product 1 amount</label><br>
+        <input type="number" id="prod1" required><br><br>
+
+        <label>Product 2 amount</label><br>
+        <input type="number" id="prod2" required><br><br>
+
+        <label>Product 3 amount</label><br>
+        <input type="number" id="prod3" required><br><br>
+
+        <input id="button" type="button" value="Calculate" onclick="calculateTotal()"><br><br>
+
+        <label>Total without Tax ($)</label><br>
+        <input type="text" id="total" readonly>
+        <br>
+
+        <label>Total with Tax ($)</label><br>
+        <input type="text" id="totalWithTax" readonly>
+    </form>
+    
+</body>
+</html>
